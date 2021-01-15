@@ -26,6 +26,8 @@
   "homepage": "https://github.com/d3v3lop3r1/cryptoshop#readme",
   "dependencies": {
     "babel": "^6.23.0",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
     "node": "^15.4.0",
     "ws": "^7.4.2"
   }
