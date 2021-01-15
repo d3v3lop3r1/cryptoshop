@@ -1,0 +1,32 @@
+{
+  "name": "cryptoshop",
+  "version": "1.0.0",
+  "description": "cryptoshop website",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3v3lop3r1/cryptoshop.git"
+  },
+  "keywords": [
+    "cryptocoins",
+    "trade",
+    "exchange",
+    "info",
+    "news"
+  ],
+  "author": "D3v3lop3r1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d3v3lop3r1/cryptoshop/issues"
+  },
+  "homepage": "https://github.com/d3v3lop3r1/cryptoshop#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "node": "^15.4.0",
+    "ws": "^7.4.2"
+  }
+}
