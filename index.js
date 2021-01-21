@@ -1,15 +1,12 @@
 var http = require('http');
 var fs = require('fs');
-var websocket = require('./src/coincap/websocket')
+require('./app.js');
 
-websocket.onmessage = function (msg) {
-    console.log(msg.data)
-}
 
 http.createServer(function(req, res) {
     
     if (req.url === '/') {
-        fs.createReadStream(__dirname + '/index.htm').pipe(res);
+        fs.createReadStream(__dirname + '/index.html').pipe(res);
     }
     
     else if (req.url === '/api') {
